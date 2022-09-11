@@ -1,13 +1,13 @@
-#title{
+#title {
   background-color: #000000;
   font-family: 'Proximateus';
-  color:rgb(0, 255, 0);
-  text-align:center;
-  font-size:2em;
+  color: lime;
+  text-align: center;
+  font-size: 2em;
 }
 
-.main{
-  color: rgb(0, 255, 0);
+.main {
+  color: lime;
 }
 
 .headercontent {
@@ -18,3 +18,4 @@
   text-align: center;
   padding-bottom: 10px;
 }
+/*# sourceMappingURL=home.page.css.map */

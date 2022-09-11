@@ -1,20 +1,27 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+  <ion-toolbar color="dark" id="title">
+    <ion-title> OneMoto </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content fullscreen color="secondary">
+  <div class="headercontent">League List</div>
+    <ion-item *ngFor="let item of data" color="secondary"(click)="detail(item)">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <img src="{{item.strBadge}}" height="55px"/>
+          </ion-col>
+          <ion-col size="6">
+            <ion-label class="main">
+              <h3>{{item.strLeague}}</h3>
+              <small>{{item.intFormedYear}}</small>
+            </ion-label>
+          </ion-col>
+          <ion-col size="4" class="ion-text-right ion-margin-vertical">
+              <ion-icon name="arrow-forward"></ion-icon>
+          </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
 </ion-content>

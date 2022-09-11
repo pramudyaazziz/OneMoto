@@ -1,0 +1,63 @@
+#title{
+  color:#00ff00;
+  font-size:2em;
+}
+
+.headercontent {
+  color: #00ff00;
+  font-family: 'nunito-extrabold';
+  font-size: large;
+  text-align: center;
+}
+
+.gambar {
+  padding-top: 20px;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.subtitle {
+  padding-top: 10px;
+  padding-left: 20px;
+  text-align: justify;
+  font-family: 'nunito-bold';
+  font-size: 18px;
+}
+
+.description {
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
+}
+
+ion-segment-button{
+  font-family: 'nunito-bold';
+  font-size: 16px;
+  text-transform:none;
+  --color:#ffffff;
+  --color-checked: #00ff00;
+  --indicator-color : #00ff00;
+  --background-hover: white;
+  --indicator-height: 3px;
+  }
+
+small {
+  font-family: 'nunito-regular';
+  font-size: 12px;
+  text-transform: none;
+  color: #5bff5b;
+}
+
+.poster {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.card-center{
+  margin: auto;
+}
+.main {
+  padding-top: 5px;
+}
+.main-arrow {
+padding-top: 10px;
+}

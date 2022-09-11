@@ -24,3 +24,24 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@font-face {
+  font-family: 'Proximateus';
+  src: url('/assets/fonts/Proximateus.otf');
+}
+@font-face {
+  font-family: 'nunito-regular';
+  src: url('/assets/fonts/nunito/NunitoSans-Regular.ttf');
+}
+@font-face {
+  font-family: 'nunito-semibold';
+  src: url('/assets/fonts/nunito/NunitoSans-SemiBold.ttf');
+}
+@font-face {
+  font-family: 'nunito-extrabold';
+  src: url('/assets/fonts/nunito/NunitoSans-ExtraBold.ttf');
+}
+@font-face {
+  font-family: 'nunito-bold';
+  src: url('/assets/fonts/nunito/NunitoSans-Bold.ttf');
+}
